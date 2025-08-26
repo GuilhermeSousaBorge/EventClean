@@ -8,6 +8,8 @@ public record FichaTreino(
      String weekDay,
      int sets,
      int reps,
+     String advancedTechnique,
+     String urlVideo,
      LocalDateTime createdAt,
      LocalDateTime updatedAt
 ) { }
